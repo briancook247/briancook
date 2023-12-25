@@ -22,8 +22,10 @@ function App() {
         </div>
       </nav>
       <header className={styles.header}>
-        <h1>Hi, I'm [Brian Cook]</h1>
-        <p>I'm a Ugrad Software Engineer @GCU</p>
+      <div className={styles.introTile}>
+  <h1>Hi, I'm Brian Cook</h1>
+  <p>I am studying Software Engineering at GCU</p>
+</div>
         <img src={myself} alt="Me" className={styles.profilePicture} />
         <div className={styles.links}>
           <a

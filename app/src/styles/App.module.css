@@ -1,4 +1,17 @@
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox, IE, and Edge */
+html {
+  /* For Firefox */
+  scrollbar-width: none;
+  /* For Internet Explorer and Edge */
+  -ms-overflow-style: none;
+}
+
 .app {
   text-align: center;
   background-image: url('../assets/bg1.jpg');

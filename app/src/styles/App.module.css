@@ -1,39 +1,94 @@
 
 .app {
   text-align: center;
-  background-image: url('../assets/bgDalle.png');
+  background-image: url('../assets/bg1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100vw;
+  -webkit-text-fill-color: aliceblue;
+
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #040409;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  z-index: 100;
+}
+
+.logo {
+  height: 100px; /* Adjust as needed */
+  width: auto; /* Maintain the image's aspect ratio */
+  vertical-align: middle; /* Align the image with the text */
+  transition: transform 0.3s ease-in-out; /* This will animate the hover effect */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add this line */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* This will scale the logo up to 120% when hovered */
 }
 
 .navbar a {
   display: block;
   color: white;
+  font-size: 20px; /* Increase the font size to 20 pixels */
   text-align: center;
-  padding: 14px 16px;
+  padding: 24px 16px;
+  padding-right: 48px; /* Add this line */
   text-decoration: none;
+}
+
+.profilePicture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out; /* This will animate the hover effect */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Adjust this line */
+}
+
+.profilePicture:hover {
+  transform: scale(1.1); /* This will scale the image up to 110% when hovered */
 }
 
 .header {
   padding: 80px;
   text-align: center;
-
   color: white;
   font-size: 30px;
 }
 
 main {
   margin-top: 160px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 650;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* This centers the links vertically */
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

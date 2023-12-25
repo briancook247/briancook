@@ -55,6 +55,12 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Adjust this line */
 }
 
+.navbarItems {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 .profilePicture:hover {
   transform: scale(1.1); /* This will scale the image up to 110% when hovered */
 }
@@ -66,9 +72,31 @@
   font-size: 30px;
 }
 
+.homeButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.homeButton img {
+  height: 70px; /* Adjust as needed */
+  width: 70px; /* Adjust as needed */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* This will animate the hover effect */
+}
+
+.homeButton img:hover {
+  transform: scale(1.1); /* Makes the image 10% larger */
+}
+
 main {
   margin-top: 0;
 }
+
 body, html, *{
   margin: 0;
   padding: 0;

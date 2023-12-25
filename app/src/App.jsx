@@ -8,20 +8,18 @@ import myself from "./assets/me.jpg";
 import linkedInLogo from "./assets/li.png";
 import gitHubLogo from "./assets/github.png";
 import emailLogo from "./assets/myEmail.png";
-
-const App = () => {
+function App() {
   return (
     <div className={styles.app}>
       <nav className={styles.navbar}>
-        <Link to="about" smooth={true}>
-          About
-        </Link>
-        <Link to="projects" smooth={true}>
-          Projects
-        </Link>
-        <Link to="contact" smooth={true}>
-          Contact
-        </Link>
+        <button className={styles.homeButton} onClick={() => window.scrollTo(0, 0)}>
+          <img src={myself} alt="Home" />
+        </button>
+        <div className={styles.navbarItems}>
+          <Link to="about" smooth={true}>About</Link>
+          <Link to="projects" smooth={true}>Projects</Link>
+          <Link to="contact" smooth={true}>Contact</Link>
+        </div>
       </nav>
       <header className={styles.header}>
         <h1>Hi, I'm [Brian Cook]</h1>

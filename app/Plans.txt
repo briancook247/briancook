@@ -1,1 +1,3 @@
 // high light Brian Cook in different gradient color (as well as other key words)
+
+// implement firebase for some interactive demo on the site (or some kind of functionality)

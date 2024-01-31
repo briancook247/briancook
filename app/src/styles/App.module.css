@@ -4,6 +4,15 @@
   display: none;
 }
 
+.bg1 {
+  background-image: url('../assets/bg1.jpg'); /* Replace with the path to your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Ensures that the background covers the entire element */
+  height: 200vh; /* This will make the height of the element double the height of the viewport */
+}
+
+
 /* Hide scrollbars for Firefox, IE, and Edge */
 html {
   /* For Firefox */
@@ -18,7 +27,7 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   -webkit-text-fill-color: aliceblue;
 
@@ -36,7 +45,7 @@ html {
 }
 
 .logo {
-  height: 100px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
   width: auto; /* Maintain the image's aspect ratio */
   vertical-align: middle; /* Align the image with the text */
   transition: transform 0.3s ease-in-out; /* This will animate the hover effect */
@@ -76,8 +85,8 @@ html {
   padding: 10px; /* Reduce padding */
   margin-bottom: 25px;
   background-color: #ffffff00; /* Adjust as needed */
-  margin-right: 550px; /* Adjust the value to make the right margin tighter */
-  margin-left: 550px; /* Adjust the value to make the left margin tighter */
+  margin-right: 250px; /* Adjust the value to make the right margin tighter */
+  margin-left: 250px; /* Adjust the value to make the left margin tighter */
   box-shadow: 0px 0px 20px rgba(0, 0, 0, .6);
 }
 
@@ -94,7 +103,6 @@ html {
 .header {
   padding: 80px;
   text-align: center;
-  color: white;
   font-size: 30px;
 }
 

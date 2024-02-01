@@ -16,15 +16,16 @@ function App() {
           <img src={myself} alt="Home" />
         </button>
         <div className={styles.navbarItems}>
-          <Link to="about" smooth={true}>About</Link>
           <Link to="projects" smooth={true}>Projects</Link>
+          <Link to="about" smooth={true}>About</Link>
           <Link to="contact" smooth={true}>Contact</Link>
         </div>
       </nav>
       <header className={styles.header}>
       <div className={styles.introTile}>
   <h1>Hi, I'm Brian Cook</h1>
-  <p>I am studying Software Engineering at GCU</p>
+  <p>"America's most exotic website" - NY Times</p>
+  <p>"This is so bussin'" -IGN</p>
 </div>
         <img src={myself} alt="Me" className={styles.profilePicture} />
         <div className={styles.links}>
@@ -49,10 +50,10 @@ function App() {
       </header>
       <main>
         <div id="about">
-          <About />
+          <Projects />
         </div>
         <div id="projects">
-          <Projects />
+          <About />
         </div>
         <div id="contact">
           <Contact />

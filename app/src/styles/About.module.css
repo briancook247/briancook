@@ -1,6 +1,7 @@
 
 .about {
   background-color: #040409;
+  background-image: url('../assets/bg1.jpg');
   padding: 50px;
   font-size: 20px;
 }

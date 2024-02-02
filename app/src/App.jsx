@@ -24,8 +24,7 @@ function App() {
       <header className={styles.header}>
       <div className={styles.introTile}>
   <h1>Hi, I'm Brian Cook</h1>
-  <p>"America's most exotic website" - NY Times</p>
-  <p>"This is so bussin'" -IGN</p>
+  <p>I'm a Junior @ GC Studying Software Engineering</p>
 </div>
         <img src={myself} alt="Me" className={styles.profilePicture} />
         <div className={styles.links}>

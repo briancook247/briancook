@@ -90,6 +90,30 @@ html {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, .6);
 }
 
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+.introTile h1, .introTile p {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.introTile h1 {
+  animation: 
+    typewriter 1.5s steps(40, end) 1s both;
+
+}
+
+.introTile p {
+  animation: 
+    typewriter 1.5s steps(50, end) 2.5s both;
+
+}
+
 .navbarItems {
   display: flex;
   justify-content: flex-end;

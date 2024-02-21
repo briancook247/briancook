@@ -1,7 +1,35 @@
 
-.about {
+.aboutSection {
   background-color: #040409;
-  background-image: url('../assets/bg1.jpg');
-  padding: 50px;
+  padding: 50px 0;
+
   font-size: 20px;
+}
+
+.number {
+  color: #7DF9FF;
+}
+
+.bigNumber {
+  color: #7DF9FF;
+  font-size: 2em; /* Adjust as needed */
+}
+
+.text {
+  color: #F0F8FF;
+}
+
+.textFaded {
+  color: #b5fbff;
+  opacity: 0.75;
+}
+
+.smallHeading {
+  color: #F0F8FF;
+  font-size: 1.2em; /* Adjust as needed */
+}
+
+.bigHeading {
+  color: #F0F8FF;
+  font-size: 2em; /* Adjust as needed */
 }

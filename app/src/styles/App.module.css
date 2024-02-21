@@ -4,15 +4,6 @@
   display: none;
 }
 
-.bg1 {
-  background-image: url('../assets/bg1.jpg'); /* Replace with the path to your image */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; /* Ensures that the background covers the entire element */
-  height: 200vh; /* This will make the height of the element double the height of the viewport */
-}
-
-
 /* Hide scrollbars for Firefox, IE, and Edge */
 html {
   /* For Firefox */
@@ -23,18 +14,17 @@ html {
 
 .app {
   text-align: center;
-  background-image: url('../assets/bg1.jpg');
+  background-color: #040409;
+  background-image: url('../assets/bg1.jpg'); /* Adjust path as needed */
+  background-blend-mode: color-dodge;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 150vh;
   width: 100vw;
-  -webkit-text-fill-color: aliceblue;
-
 }
 
 .navbar {
-  background-color: #040409;
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -58,13 +48,13 @@ html {
 
 .navbar a {
   display: block;
-  color: white;
   font-size: 20px; /* Increase the font size to 20 pixels */
   text-align: center;
   padding: 24px 16px;
   padding-right: 48px; /* Add this line */
   text-decoration: none;
 }
+
 
 .profilePicture {
   width: 300px;
@@ -97,6 +87,7 @@ html {
 
 
 .introTile h1, .introTile p {
+  color: #F0F8FF;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -114,11 +105,30 @@ html {
 
 }
 
+.navbarItems span.number {
+  color: #7DF9FF;
+  transition: color 0.3s ease;
+}
+
+.navbarItems span.text {
+  color: #F0F8FF;
+  transition: color 0.3s ease;
+}
+
+.navbarItems a:hover span {
+  color: #7DF9FF;
+  font-weight: bold;
+}
+
 .navbarItems {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  color: #F0F8FF;
 }
+
+
+
 
 .profilePicture:hover {
   transform: scale(1.1); /* This will scale the image up to 110% when hovered */
@@ -155,10 +165,16 @@ main {
   margin-top: 0;
 }
 
-body, html, *{
+body {
+  background-color: #040409;
+  background-image: url('../assets/bg1.jpg'); /* Adjust path as needed */
+  background-blend-mode: color-dodge;
+}
+
+html, *{
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   font-weight: 650;
 }
 
@@ -171,7 +187,7 @@ body, html, *{
 }
 
 .links a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 

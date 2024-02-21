@@ -4,10 +4,10 @@ import styles from '../styles/Projects.module.css';
 
 const Projects = () => {
   return (
-    <section id="projects" className={styles.projects}>
-      <h2>Projects</h2>
-      <p>My Projects...</p>
-    </section>
+<div id="projects" className={styles.projectsSection}>
+  <span className={styles.number}>02. </span> <span className={styles.text}>Here's some of my favorite work...</span>
+  <h1 className={styles.bigHeading}>Web3 App</h1>
+  </div>
   );
 };
 

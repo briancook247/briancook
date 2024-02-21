@@ -1,7 +1,27 @@
 
-.contact {
+.contactSection {
   background-color: #040409;
+  background-image: url('../assets/bg1.jpg');
+  background-blend-mode: color-dodge;
   padding: 50px;
   font-size: 20px;
-  -webkit-text-fill-color: aliceblue;
+  color: #F0F8FF;
+}
+
+.number {
+  color: #7DF9FF;
+}
+
+.text {
+  color: #F0F8FF;
+}
+
+.smallHeading {
+  color: #F0F8FF;
+  font-size: 1.2em; /* Adjust as needed */
+}
+
+.bigHeading {
+  color: #F0F8FF;
+  font-size: 2em; /* Adjust as needed */
 }

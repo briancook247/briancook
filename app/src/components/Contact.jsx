@@ -4,10 +4,10 @@ import styles from '../styles/Contact.module.css';
 
 const Contact = () => {
   return (
-    <section id="contact" className={styles.contact}>
-      <h2>Contact</h2>
-      <p>Contact me...</p>
-    </section>
+<div id="contact" className={styles.contactSection}>
+  <span className={styles.number}>03. </span> <span className={styles.text}>Next Steps</span>
+  <h1 className={styles.bigHeading}>Contact Me</h1>
+  </div>
   );
 };
 

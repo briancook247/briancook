@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+  }
+
+  
+.languages {
+    background-color: #040409;
+    padding: 50px;
+    font-size: 20px;
+  }
+  
+  .languages .image-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 30px; /* Adjust as needed */
+
+    margin: 0 auto; /* This centers the .image-container itself */
+}
+
+.languages .image-container img {
+    width: 100px;
+    height: 100px;
+}

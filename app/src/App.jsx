@@ -14,15 +14,7 @@ import emailLogo from "./assets/myEmail.png";
 function App() {
   return (
     <div className={styles.app}>
-      <nav className={styles.navbar}>
-        <button className={styles.homeButton} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>          <img src={myself} alt="Home" />
-        </button>
-        <div className={styles.navbarItems}>
-          <Link to="about" smooth={true}><span className={styles.number}>01.</span> <span className={styles.text}>About</span></Link>
-          <Link to="projects" smooth={true}><span className={styles.number}>02.</span> <span className={styles.text}>Projects</span></Link>
-          <Link to="contact" smooth={true}><span className={styles.number}>03.</span> <span className={styles.text}>Contact</span></Link>
-        </div>
-      </nav>
+            <Navbar />
       <header className={styles.header}>
         <div className={styles.introTile}>
           <h1>Hi, I'm Brian Cook</h1>

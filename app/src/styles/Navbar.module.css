@@ -1,0 +1,56 @@
+.navbarItems span.number {
+    color: #7DF9FF;
+    transition: color 0.3s ease;
+  }
+  
+  .navbarItems span.text {
+    color: #F0F8FF;
+    transition: color 0.3s ease;
+  }
+  
+  .navbarItems a:hover span {
+    color: #7DF9FF;
+    font-weight: bold;
+  }
+  
+  .navbarItems {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    color: #F0F8FF;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This centers the links vertically */
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, *{
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    font-weight: 650;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 20px; /* Increase the font size to 20 pixels */
+    text-align: center;
+    padding: 24px 16px;
+    padding-right: 48px; /* Add this line */
+    text-decoration: none;
+  }
+  
+  

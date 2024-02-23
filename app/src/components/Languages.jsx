@@ -10,9 +10,6 @@ import pythonImg from '../assets/python.png';
 import reactImg from '../assets/react.png';
 
 const Languages = () => {
-    const languages = ['JavaScript', 'Python', 'Java']; // Replace with your languages
-    const frameworks = ['React', 'Next.js', 'Express']; // Replace with your frameworks
-    const technologies = ['Git', 'Docker', 'AWS']; // Replace with your technologies
 
     return (
         <section id="languages" className={styles.languages}>

@@ -4,11 +4,13 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Languages from './components/Languages';
+import Navbar from './components/Navbar';
 import styles from "./styles/App.module.css";
 import myself from "./assets/me.jpg";
 import linkedInLogo from "./assets/li.png";
 import gitHubLogo from "./assets/github.png";
 import emailLogo from "./assets/myEmail.png";
+
 function App() {
   return (
     <div className={styles.app}>

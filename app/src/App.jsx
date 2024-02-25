@@ -10,6 +10,8 @@ import myself from "./assets/me.jpg";
 import linkedInLogo from "./assets/li.png";
 import gitHubLogo from "./assets/github.png";
 import emailLogo from "./assets/myEmail.png";
+import CookieClicker from './components/CookieClicker';
+
 
 function App() {
   return (

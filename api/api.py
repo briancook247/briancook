@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route('/fetchBTC', methods=['GET'])
 def fetch_btc():
     url = 'http://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
+    # I know this isnt a good idea haha its a free api and will be replaced in a minute
     api_key =  '3388b957-7571-4ccd-8c6d-d1ade4e83c26'
 
     parameters = {
